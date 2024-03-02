@@ -1,87 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\artum\\OneDrive\\Documentos\\GitHub\\Sexta-Feira\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C9DB985F-89F7-443C-9EB8-9A1A5B06FD5A}|Sexta Feira\\Sexta Feira.csproj|C:\\Users\\artum\\OneDrive\\Documentos\\GitHub\\Sexta-Feira\\sexta feira\\windowclass\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9DB985F-89F7-443C-9EB8-9A1A5B06FD5A}|Sexta Feira\\Sexta Feira.csproj|solutionrelative:sexta feira\\windowclass\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9DB985F-89F7-443C-9EB8-9A1A5B06FD5A}|Sexta Feira\\Sexta Feira.csproj|c:\\users\\artum\\onedrive\\documentos\\github\\sexta-feira\\sexta feira\\windowclass\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9DB985F-89F7-443C-9EB8-9A1A5B06FD5A}|Sexta Feira\\Sexta Feira.csproj|solutionrelative:sexta feira\\windowclass\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9DB985F-89F7-443C-9EB8-9A1A5B06FD5A}|Sexta Feira\\Sexta Feira.csproj|c:\\users\\artum\\onedrive\\documentos\\github\\sexta-feira\\sexta feira\\windowclass\\frm_lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9DB985F-89F7-443C-9EB8-9A1A5B06FD5A}|Sexta Feira\\Sexta Feira.csproj|solutionrelative:sexta feira\\windowclass\\frm_lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9DB985F-89F7-443C-9EB8-9A1A5B06FD5A}|Sexta Feira\\Sexta Feira.csproj|c:\\users\\artum\\onedrive\\documentos\\github\\sexta-feira\\sexta feira\\speech\\speech.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9DB985F-89F7-443C-9EB8-9A1A5B06FD5A}|Sexta Feira\\Sexta Feira.csproj|solutionrelative:sexta feira\\speech\\speech.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Speech.cs",
-              "DocumentMoniker": "C:\\Users\\artum\\OneDrive\\Documentos\\GitHub\\Sexta-Feira\\Sexta Feira\\Speech\\Speech.cs",
-              "RelativeDocumentMoniker": "Sexta Feira\\Speech\\Speech.cs",
-              "ToolTip": "C:\\Users\\artum\\OneDrive\\Documentos\\GitHub\\Sexta-Feira\\Sexta Feira\\Speech\\Speech.cs",
-              "RelativeToolTip": "Sexta Feira\\Speech\\Speech.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T14:09:56.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Frm_Lista.cs",
-              "DocumentMoniker": "C:\\Users\\artum\\OneDrive\\Documentos\\GitHub\\Sexta-Feira\\Sexta Feira\\WindowClass\\Frm_Lista.cs",
-              "RelativeDocumentMoniker": "Sexta Feira\\WindowClass\\Frm_Lista.cs",
-              "ToolTip": "C:\\Users\\artum\\OneDrive\\Documentos\\GitHub\\Sexta-Feira\\Sexta Feira\\WindowClass\\Frm_Lista.cs",
-              "RelativeToolTip": "Sexta Feira\\WindowClass\\Frm_Lista.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCEAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T13:57:02.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Frm_Principal.cs",
-              "DocumentMoniker": "C:\\Users\\artum\\OneDrive\\Documentos\\GitHub\\Sexta-Feira\\Sexta Feira\\WindowClass\\Frm_Principal.cs",
-              "RelativeDocumentMoniker": "Sexta Feira\\WindowClass\\Frm_Principal.cs",
-              "ToolTip": "C:\\Users\\artum\\OneDrive\\Documentos\\GitHub\\Sexta-Feira\\Sexta Feira\\WindowClass\\Frm_Principal.cs",
-              "RelativeToolTip": "Sexta Feira\\WindowClass\\Frm_Principal.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAwwGUAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T21:40:10.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Frm_Principal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\artum\\OneDrive\\Documentos\\GitHub\\Sexta-Feira\\Sexta Feira\\WindowClass\\Frm_Principal.cs",
-              "RelativeDocumentMoniker": "Sexta Feira\\WindowClass\\Frm_Principal.cs",
-              "ToolTip": "C:\\Users\\artum\\OneDrive\\Documentos\\GitHub\\Sexta-Feira\\Sexta Feira\\WindowClass\\Frm_Principal.cs [Design]",
-              "RelativeToolTip": "Sexta Feira\\WindowClass\\Frm_Principal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T13:56:39.164Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
