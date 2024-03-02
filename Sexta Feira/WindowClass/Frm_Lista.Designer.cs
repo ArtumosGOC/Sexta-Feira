@@ -112,7 +112,7 @@
             this.GB1.Size = new System.Drawing.Size(411, 316);
             this.GB1.TabIndex = 1;
             this.GB1.TabStop = false;
-            this.GB1.Text = "TTLS";
+            this.GB1.Text = "TTS";
             // 
             // RTBD_R
             // 
@@ -188,7 +188,7 @@
             this.GB01.Size = new System.Drawing.Size(296, 316);
             this.GB01.TabIndex = 3;
             this.GB01.TabStop = false;
-            this.GB01.Text = "TTLS";
+            this.GB01.Text = "TTS";
             // 
             // RTBS_R
             // 
