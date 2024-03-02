@@ -1,2 +1,6 @@
+# Ingnorar Arquivos
+*.exe
+
+# Ignorar Diretorios!
 obj/
 bin/
