@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Eventing;
 using System.Linq;
 using System.Windows.Forms;
 using Microsoft.Speech.Recognition;
@@ -15,6 +16,7 @@ namespace Sexta_Feira
 
         protected F_in f_In = new F_in();// variavel com caracteristicas herdadas da classe.
         protected F_out f_Out = new F_out();// variavel com caracteristicas herdadas da classe.
+        
 
         private void Form1_Load(object sender, EventArgs e)//carrega quando abre "Frm_Principal.*"
         {
@@ -43,7 +45,7 @@ namespace Sexta_Feira
                 Matriz.LoadGrammar(new Grammar(builder) { Name = "sys" }); 
 
                 Matriz.RecognizeAsync(RecognizeMode.Multiple);//como vai tratar input de falas.
-                Speech.VoiceR("O reconhecimento de voz foi iniciado");//chama "Speech.VoiceR(string text)".
+                Speech.Speech.VoiceR("O reconhecimento de voz foi iniciado");//chama "Speech.VoiceR(string text)".
             }
             catch (Exception ex)//caso de algum problema na excução do código.
             {
@@ -61,7 +63,7 @@ namespace Sexta_Feira
             if ((double)e.Result.Confidence <= 0.7)
                 return;
             //usa Grammar.Name como parametro do switch.
-            switch (e.Result.Grammar.Name)
+            /*switch (e.Result.Grammar.Name)
             {
                 case "sys"://caso o parametro "Grammar.Name=\"sys\"" execute:
                     try//tenta executar o código
@@ -69,7 +71,7 @@ namespace Sexta_Feira
                         /*
                         usa um operador bool para comparar string onde se "x lambda == Result_" executa
                         a função.
-                        */
+                        *//*
                         if (f_In._InOi.Any<string>(x => x == Result_))
                         {
                             //laço de repetoção que pega a posição de "f_In._InOi".
@@ -78,8 +80,9 @@ namespace Sexta_Feira
                                 /*
                                 se i for igual a posição de "f_In._InOi.IndexOf(Result_)" então fale
                                 "f_In._InOi[i]".
-                                */
-                                if (i == f_In._InOi.IndexOf(Result_)) Speech.VoiceR(f_Out._OutOI[i]);
+                                *//*
+                                if (i == f_In._InOi.IndexOf(Result_))
+                                    Speech.Speech.VoiceR(f_Out._OutOI[i]);
                             }
                             break;
                         }
@@ -92,7 +95,8 @@ namespace Sexta_Feira
                 //default não é usado.
                 default:
                     break;
-            }
+            }*/
+            Speech.SpeechSwitch.SpeechReturnSwitch(e.Result.Grammar.Name, Result_); ;
         }
         private void Volume(object s, AudioLevelUpdatedEventArgs e)
         {

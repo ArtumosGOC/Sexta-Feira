@@ -1,6 +1,6 @@
 ﻿using System.Speech.Synthesis;
 
-namespace Sexta_Feira
+namespace Sexta_Feira.Speech
 {
     internal class Speech
     {
